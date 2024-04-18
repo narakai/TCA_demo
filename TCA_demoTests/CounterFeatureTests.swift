@@ -63,4 +63,14 @@ final class CounterFeatureTests: XCTestCase {
             $0.fact = "0 is a good number."
         }
     }
+    
+    func testIncrementInFirstTab() async {
+        let store = TestStore(initialState: AppFeature.State()) {
+            AppFeature()
+        }
+        
+        await store.send(\.tab1.incrementButtonTapped) {
+            $0.tab1.count = 1
+        }
+    }
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B11042DE2BD103BF00E4C148 /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F636F2BCF6675005FA342 /* AppFeature.swift */; };
+		B11042DF2BD1053700E4C148 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18EC7002BCD23A300604DA5 /* CounterView.swift */; };
+		B12F63702BCF6675005FA342 /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F636F2BCF6675005FA342 /* AppFeature.swift */; };
 		B18EC6FD2BCD216E00604DA5 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = B18EC6FC2BCD216E00604DA5 /* ComposableArchitecture */; };
 		B18EC6FF2BCD21B100604DA5 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18EC6FE2BCD21B100604DA5 /* CounterFeature.swift */; };
 		B18EC7012BCD23A300604DA5 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18EC7002BCD23A300604DA5 /* CounterView.swift */; };
@@ -31,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B12F636F2BCF6675005FA342 /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
 		B18EC6FE2BCD21B100604DA5 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		B18EC7002BCD23A300604DA5 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		B1B9FEE12BCE2ABE0099BD37 /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 			children = (
 				B1D77A502BCD339600CBA40F /* TCA-demo-Info.plist */,
 				B18EC7002BCD23A300604DA5 /* CounterView.swift */,
+				B12F636F2BCF6675005FA342 /* AppFeature.swift */,
 				B18EC6FE2BCD21B100604DA5 /* CounterFeature.swift */,
 				B1DA84062BC939560009F61D /* TCA_demoApp.swift */,
 				B1B9FF302BCE57940099BD37 /* NumberFactClient.swift */,
@@ -228,6 +233,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B11042DF2BD1053700E4C148 /* CounterView.swift in Sources */,
+				B11042DE2BD103BF00E4C148 /* AppFeature.swift in Sources */,
 				B1B9FF322BCE5B300099BD37 /* NumberFactClient.swift in Sources */,
 				B1B9FF2A2BCE4CE20099BD37 /* CounterFeature.swift in Sources */,
 				B1B9FF292BCE4BF60099BD37 /* CounterFeatureTests.swift in Sources */,
@@ -239,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B18EC6FF2BCD21B100604DA5 /* CounterFeature.swift in Sources */,
+				B12F63702BCF6675005FA342 /* AppFeature.swift in Sources */,
 				B1DA84072BC939560009F61D /* TCA_demoApp.swift in Sources */,
 				B18EC7012BCD23A300604DA5 /* CounterView.swift in Sources */,
 				B1B9FF312BCE57940099BD37 /* NumberFactClient.swift in Sources */,
