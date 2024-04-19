@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B11042DE2BD103BF00E4C148 /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F636F2BCF6675005FA342 /* AppFeature.swift */; };
 		B11042DF2BD1053700E4C148 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18EC7002BCD23A300604DA5 /* CounterView.swift */; };
+		B11042E12BD10A3A00E4C148 /* ContactsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11042E02BD10A3A00E4C148 /* ContactsFeature.swift */; };
+		B11A42042BD213F10004634A /* AddContactFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11A42032BD213F10004634A /* AddContactFeature.swift */; };
 		B12F63702BCF6675005FA342 /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12F636F2BCF6675005FA342 /* AppFeature.swift */; };
 		B18EC6FD2BCD216E00604DA5 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = B18EC6FC2BCD216E00604DA5 /* ComposableArchitecture */; };
 		B18EC6FF2BCD21B100604DA5 /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18EC6FE2BCD21B100604DA5 /* CounterFeature.swift */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B11042E02BD10A3A00E4C148 /* ContactsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsFeature.swift; sourceTree = "<group>"; };
+		B11A42032BD213F10004634A /* AddContactFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactFeature.swift; sourceTree = "<group>"; };
 		B12F636F2BCF6675005FA342 /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
 		B18EC6FE2BCD21B100604DA5 /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		B18EC7002BCD23A300604DA5 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
@@ -110,6 +114,8 @@
 				B18EC6FE2BCD21B100604DA5 /* CounterFeature.swift */,
 				B1DA84062BC939560009F61D /* TCA_demoApp.swift */,
 				B1B9FF302BCE57940099BD37 /* NumberFactClient.swift */,
+				B11042E02BD10A3A00E4C148 /* ContactsFeature.swift */,
+				B11A42032BD213F10004634A /* AddContactFeature.swift */,
 				B1DA840A2BC939580009F61D /* Assets.xcassets */,
 				B1DA840C2BC939580009F61D /* Preview Content */,
 			);
@@ -250,6 +256,8 @@
 				B1DA84072BC939560009F61D /* TCA_demoApp.swift in Sources */,
 				B18EC7012BCD23A300604DA5 /* CounterView.swift in Sources */,
 				B1B9FF312BCE57940099BD37 /* NumberFactClient.swift in Sources */,
+				B11042E12BD10A3A00E4C148 /* ContactsFeature.swift in Sources */,
+				B11A42042BD213F10004634A /* AddContactFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
